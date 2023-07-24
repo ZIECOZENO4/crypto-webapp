@@ -18,7 +18,7 @@ const SplashPage: React.FC = () => {
 
   return (
     <div className=' bg-black'>
-      <div className=" relative hidden sm:block  ">
+      <div className=" relative hidden sm:block   ">
         <video className=" min-w-full h-96 md:w-full md:h-auto" autoPlay loop muted>
           <source src="/videos/video1.mp4" type="video/mp4"/>
         </video>
