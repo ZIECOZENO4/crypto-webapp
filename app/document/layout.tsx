@@ -1,13 +1,14 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: ' Bitcoin and Crypto  website',
-  description: 'The home of coin traders',
-  icons: ''
+  title: ' Bitcoin and Crypto  Documents',
+  description: 'TLearn about crypto first',
+
 }
 
 export default function RootLayout({
@@ -17,7 +18,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body >{children}</body>
+      <Head>
+        <link rel="icon" href="/path/to/your/icon.ico" />
+      </Head>
+      <body>{children}</body>
     </html>
   )
-} 
+}

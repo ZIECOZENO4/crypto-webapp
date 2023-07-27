@@ -11,7 +11,7 @@ const SplashPage: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       router.push('/dashboard');
-    }, 30000);
+    }, 20000);
 
     return () => clearTimeout(timer);
   }, [router]);
@@ -32,14 +32,14 @@ const SplashPage: React.FC = () => {
           <button className=' bg-amber-600 rounded-md font-bold text-2xl bg-opacity-40'>Note This  : <span className=' bg-green-800 p-1 rounded-md bg-opacity-60'>  This is The Home Of All Traders</span></button>
         </div>
         <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-end">
-      <a href='https://zeno-react-offical-website.netlify.app/' className=' cursor-pointer font-bold  text-xl pb-7 px-3 flex justify-end'>This Crypto Website Was BUILT ZENO WEB TEAM</a>   
+      <a href='https://zeno-react-offical-website.netlify.app/' className=' cursor-pointer font-bold  text-xl pb-7 px-3 flex justify-end'>This Crypto Website Is Owned By ZENO WEB TEAM</a>   
         </div>
       </div>
 
       <div className=" h-96  md:hidden lg:hidden xl:hidden bg-amber-600 ">
         <div className='pt-2'></div>
         <h1 className="text-4xl font-extrabold flex justify-center mt-2 bg-amber-600  "> BitCoin Store</h1>  
-         <h2 className='flex justify-center mt-9 -mb-12 text-2xl'>Cryptocoin Camp</h2>
+         <h2 className='flex justify-center mt-3 -mb-12 text-2xl'>Cryptocoin Camp</h2>
         <video className=" min-w-full h-96 -mb-11 md:w-full md:h-auto bg-amber-600" autoPlay loop muted>
           <source src="/videos/video1.mp4" type="video/mp4"/>
         </video>
@@ -47,7 +47,7 @@ const SplashPage: React.FC = () => {
      
           <p className=' font-medium'>This is the home of all <span className=' font-bold text-amber-900'>COIN TRADERS</span>.</p>
         </div>
-      <div className='py-7 bg-amber-600 flex justify-end  '><a href='https://zeno-react-offical-website.netlify.app/' className=' cursor-pointer font-bold'>Built By ZENO WEB TEAM.</a></div>
+      <div className='py-7 bg-amber-600 flex justify-end  '><a href='https://zeno-react-offical-website.netlify.app/' className=' cursor-pointer font-bold'>Owned By ZENO WEB TEAM.</a></div>
       </div>
     </div>
   );
