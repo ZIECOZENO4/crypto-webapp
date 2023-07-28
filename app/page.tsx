@@ -25,7 +25,7 @@ const SplashPage: React.FC = () => {
 
         <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center">
           <h1 className="text-6xl font-extrabold -mt-56 ">OFFICIAL  BITCOIN</h1>
-          <p className='text-4xl mt-20 font-semibold leading-10'>Bitcoin Tradding And Cryptocoin Camp</p>
+          <p className='text-4xl mt-20 font-semibold leading-10'>Bitcoin Trading And Cryptocoin Camp</p>
         
         </div>
         <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center justify-items-stretch pt-80">

@@ -3,7 +3,9 @@
 export default function Document() {
   return (
     <div>
-      all document
+   <nav>
+    
+   </nav>
     </div>
   )
 }
