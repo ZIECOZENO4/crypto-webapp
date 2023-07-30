@@ -13,7 +13,15 @@ module.exports = {
       backgroundImage: theme => ({
         'background': "url('/images/dashboard.jpg')",
         'icon': "url('/images/icon.jpg')",
-      })
+        'bitoffice': "url('/images/bit.png')",
+      }),
+      colors: {
+        'primary-black': '#1A232E',
+        'secondary-white': '#c7c7c7',
+      },
+      transitionTimingFunction: {
+        'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',
+      },
     },
   },
   plugins: [],

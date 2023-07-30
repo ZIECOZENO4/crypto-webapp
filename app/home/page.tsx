@@ -1,10 +1,19 @@
+import { Footer, Navbar } from '../components/framer motion';
+import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../../sections/framer sections';
 
+const Page = () => (
+  <div className=' bg-blue-900'>
+    <Navbar />
+    <Hero />
+    <About />
+    <Explore />
+    <GetStarted />
+    <WhatsNew />
+    <World />
+    <Insights />
+    <Feedback />
+    <Footer />
+  </div>
+);
 
-export default function HomePage() {
-  return (
-    <div className=" bg-blue-500">
-      <div className=" gradient-02 z-0" />
-      this is the home page
-    </div>
-  )
-}
+export default Page;
