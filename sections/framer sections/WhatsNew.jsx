@@ -1,5 +1,6 @@
+'use client'
 import { motion } from "framer-motion";
-import styles from "../../app/index.module.css";
+import styles from "@/app";
 import { NewFeatures, TitleText, TypingText } from "@/app/components/framer motion";
 import { staggerContainer, fadeIn, planetVariants } from "../../utils/motion";
 import { newFeatures } from "@/constants";
