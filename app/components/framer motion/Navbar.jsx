@@ -11,12 +11,12 @@ const Navbar = () => (
   className={`${styles.paddings} py-8 relative`}
   >
 <div className=" absolute w-[50%] inset-0 gradient-01  "  />
-  <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
-<h2 className=" font-extrabold text-[30px] leading-[34px] text-black"> BITCOIN  AND CRYPTO CAMP</h2>
+  <div className={`${styles.innerWidth} flex justify-between font-bold md:mx-auto md:flex md:justify-between md:gap-8`}>
+<h2 className=" text-sm md:font-extrabold md:text-[30px] md:leading-[34px] text-black"> BITCOIN  AND CRYPTO CAMP</h2>
   <Image
   src="/framer public/menu.svg"
   alt="menu"
-  className="w-[24px] h-[24px] object-contain text-black bg-black ml-72"
+  className="md:w-[24px] md:h-[24px] h-5 w-5 object-contain text-black bg-blue-900 md:ml-72"
   width={60}
   height={10}
   />

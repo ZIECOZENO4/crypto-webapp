@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding:5;
   box-sizing: border-box;
   font-family: "Eudoxus Sans", sans-serif;
   scroll-behavior: smooth;
@@ -97,10 +97,11 @@
 
 .footer-gradient {
   position: absolute;
-  width: 500px;
-  height: 100px;
-  left: 37%;
-  bottom: 0;
+  width: 600px;
+  height: 200px;
+  left: 47%;
+  bottom: 10px;
+  padding: 5px;
 
   background: #65c4fa;
   filter: blur(150px);
