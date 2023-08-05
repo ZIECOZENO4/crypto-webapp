@@ -36,14 +36,15 @@ title={<p className=" md:text-[28px] md:mb-5 flex justify-center">CHECKOUT THE L
 variants={planetVariants("right")}
 className={`flex-1 ${styles.flexCenter}`}
 >
-<img 
-src="/framer public/new.png"
-alt="let's get started"
-className=" w-[90%] h-[90%]  object-contain mb-9"
-/>
+
 </motion.div>
 </motion.div>
   </section>
 );
 
 export default GetStarted;
+// <img 
+// src="/framer public/new.png"
+// alt="let's get started"
+// className=" w-[90%] h-[90%]  object-contain mb-9"
+// />
