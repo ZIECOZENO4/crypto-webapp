@@ -25,7 +25,11 @@ title={(
 variants={fadeIn('up', 'tween', 0.3, 1)}
 className="relative mt-[68px] flex w-full  "
 >
-
+<img 
+src="/framer public/map.png"
+alt="trade map"
+className="w-full h-full object-cover mt-8"
+/>
 
 <div className=" absolute w-[100vw] h-[100vh] flex flex-auto">
 <div className="  rounded-full bg-[#5d6680] flex-center p-[200px] ">
@@ -67,8 +71,3 @@ width={50}
 );
 
 export default World;
-// <img 
-// src="/framer public/map.png"
-// alt="trade map"
-// className="w-full h-full object-cover mt-8"
-// />

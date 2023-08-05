@@ -17,7 +17,11 @@ className={`${styles.innerWidth} mx-auto flex md:flex-row flex-col gap-8 md:-mt-
 variants={planetVariants("left")}
 className={`flex-1 ${styles.flexCenter}`}
 >
-
+<img 
+src="/framer public/started.jpg"
+alt="let's get started"
+className=" w-[100%] h-[100%]  object-contain"
+/>
 </motion.div>
 <motion.div
 variants={fadeIn('left', 'tween', 0.2, 0.1)}
@@ -43,8 +47,3 @@ title={<p className=" md:text-[20px]">HOW TO GET STARTED ON OUR CRYPTO CAMP</p>}
 );
 
 export default GetStarted;
-// <img 
-// src="/framer public/started.jpg"
-// alt="let's get started"
-// className=" w-[100%] h-[100%]  object-contain"
-// />

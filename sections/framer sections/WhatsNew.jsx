@@ -18,6 +18,7 @@ const WhatsNew = () => {
           variants={fadeIn("right", "tween", 0.2, 0.1)}
           className=" flex-[0.75] flex justify-center flex-col mb-9 pb-9 md:mb-20 md:pb-[20%]"
         >
+
           <TypingText title="see the latest updates in the crypto world and most especially from the coins we trade here" className="uppercase mt-[20px]" />
           <TitleText title={<p className=" md:text-[28px] md:mb-5 flex justify-center">CHECKOUT THE LATEST NEWS IN CRYPTO</p>} />
           <div className=" mt-[38px] flex flex-wrap  justify-between gap-[24px] md:gap-[5px]">
@@ -26,16 +27,19 @@ const WhatsNew = () => {
             ))}
           </div>
         </motion.div>
-        <motion.div variants={planetVariants("right")} className={`flex-1 ${styles.flexCenter}`}></motion.div>
-      </motion.div>
+        <motion.div variants={planetVariants("right")} className={`flex-1 ${styles.flexCenter}`}>
+                <img 
+src="/framer public/new.png"
+alt="let's get started"
+className=" w-[90%] h-[90%]  object-contain mb-9"
+/>      
+        
+        </motion.div>
+
+        </motion.div>
     </section>
   );
 };
 
 export default WhatsNew;
 
-// <img 
-// src="/framer public/new.png"
-// alt="let's get started"
-// className=" w-[90%] h-[90%]  object-contain mb-9"
-// />

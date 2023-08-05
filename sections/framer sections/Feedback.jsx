@@ -33,7 +33,12 @@ remember to write a short note on the feedback of the founder  uhbuiibffy   uhuh
 variants={fadeIn('left', 'tween', 0.2, 1)}
 className="  md:max-w-[300px] flex-1 justify-center flex-col items-center relative rounded-full mb-0"
 >
+<img 
+src="framer public/pofile.png"
+alt="feeback image"
+className="w-full md:h-[710px] h-[310px] object-cover rounded-[40px] mb-0"
 
+/>
 
 <motion.div
 variants={zoomIn(0.4, 1)}
@@ -56,9 +61,3 @@ width={80}
 );
 
 export default Feedback;
-// <img 
-// src="framer public/pofile.png"
-// alt="feeback image"
-// className="w-full md:h-[710px] h-[310px] object-cover rounded-[40px] mb-0"
-
-// />
