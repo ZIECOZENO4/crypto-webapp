@@ -36,7 +36,7 @@ const SplashPage: React.FC = () => {
         </div>
       </div>
 
-      <div className=" h-96  md:hidden lg:hidden xl:hidden bg-amber-600 ">
+      <div className=" h-[100vh] md:hidden lg:hidden xl:hidden bg-amber-600 ">
         <div className='pt-2'></div>
         <h1 className="text-4xl font-extrabold flex justify-center mt-2 bg-amber-600  "> BitCoin Store</h1>  
          <h2 className='flex justify-center mt-3 -mb-12 text-2xl'>Cryptocoin Camp</h2>

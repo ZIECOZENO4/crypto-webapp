@@ -4,7 +4,7 @@ import styles from '../../app/index';
 import { slideIn, staggerContainer, textVariant} from '../../utils/motion';
 import Image from "next/image";
 const Hero = () => (
-  <section className={`${styles.ypaddings} sm:pl-16 pl-6`}>
+  <section className={`${styles. yPaddings} `}>
 <motion.div 
 variants={staggerContainer}
 initial="hidden"
@@ -26,38 +26,51 @@ className=" flex flex-row justify-center items-center"
 <h1 className={styles.heroHeading}>
 ca
 </h1>
-<h1 className={styles.heroDText}>M</h1>
+<h1 className={styles.heroHeading}>M</h1>
 <h1 className={styles.heroHeading}>p</h1>
 </motion.div>
 </div>
 <motion.div
-variants={slideIn('right', 'tween', 0.2, 1)} 
-className=" relative w-full md:-mt-[20px] -mt-[12px]"
+variants={slideIn('left', 'tween', 0.2, 1)} 
+className=" relative  md:-mt-[20px] -mt-[12px] h"
 >
-<div className=" absolute w-full h-[300px] hero-gradient rounded-tl-[140px] -top-[300px]"/>
+<div className="w-full absolute h-[300px] hero-gradient rounded--[140px] z-[0] -top-[30px]"/>
 <Image 
-src='/framer public/cover.png'
+src='/framer public/top.png'
+
 alt="cover image"
-className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
+className=" object-cover w-full sm:[500px] h-[350px] rounded-tl-[140px] z-10 relative md:w-[300px] "
 width={200}
-height={200}
+height={100}
 />
 <a href="#explore">
-<div className=" w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-20">
+<div className=" w-full  justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-20 hidden">
 <Image
 src='/framer public/stamp.png'
 alt="stamp"
-className=" sm:w-[155px] w-[100px] sm:h-[155px} h-[100px] object-contain"
+className=" sm:w-[155px] w-[100px] sm:h-[155px} h-[100px] object-contain "
 height={50}
 width={50}
 />
 </div>
-
 </a>
 
 </motion.div>
 </motion.div>
   </section>
+// <div className=" align-middle flex justify-center ">
+// <Image 
+// className="hidden md:align-middle md:visible h-[10vh] md:w-full mx-36 md:flex md:justify-center md:ml-10"
+// src={cover}
+// height={100}
+// width={400}
+// alt="for pc"
+
+// />
+// </div>
+
+
+
 );
 
 export default Hero;

@@ -1,20 +1,3 @@
-// 'use client'
-// import { signIn } from 'next-auth/react'
-// import React from 'react'
-
-// export default function Page() {
-//   return (
-//     <div className=' flex justify-center   h-[100vh] bg-gradient-to-t from-blue-900 to-blue-400'>
-//       <h1 className=' mt-11 text-3xl font-serif '>SIGN UP PAGE </h1>
-//    <button
-//    type='button'
-//    onClick={()=> signIn('google')}
-//    className=' btn btn-link btn-floating'>
-//     <i className="fa">gogle</i>
-//    </button>
-//     </div>
-//   )
-// }
 'use client'
 
 
