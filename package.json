@@ -4,11 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-<<<<<<< HEAD
-    "build": "next build && next export",
-=======
     "build": "prisma generate && next build && next export",
->>>>>>> main
     "start": "next start",
     "lint": "next lint",
     "postinstall": "prisma generate"
@@ -42,9 +38,4 @@
     "prisma": "^5.0.0",
     "tailwindcss": "^3.3.3"
   }
-<<<<<<< HEAD
 }
-=======
-}
-
->>>>>>> main
