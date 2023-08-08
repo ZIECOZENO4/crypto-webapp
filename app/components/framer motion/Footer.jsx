@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 
 import { footerVariants } from "@/utils/motion";
+import Image from "next/image";
 const Footer = () => (
   <motion.footer
   variants={footerVariants}
@@ -15,7 +16,7 @@ const Footer = () => (
   <div className="flex items-center justify-between flex-wrap gap-5">
   <h4 className=" font-bold md:text-[44px] text-[20px] text-white">ENTER THE CRYPTO WORLD</h4>
   <button className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-12">
-  <img 
+  <Image 
   src="framer public/headset.svg"
   alt="headset"
   className="w-[24px] h-[24px] object-contain"

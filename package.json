@@ -10,12 +10,14 @@
     "postinstall": "prisma generate"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.23.2",
     "@prisma/client": "^5.0.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@types/bcrypt": "^5.0.0",
     "@types/node": "20.4.4",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
+    "@uploadthing/react": "^5.2.0",
     "bcrypt": "^5.1.0",
     "bcrypt-ts": "^4.0.0",
     "class-variance-authority": "^0.7.0",
@@ -24,13 +26,16 @@
     "eslint-config-next": "13.4.12",
     "framer-motion": "^10.15.0",
     "lucide-react": "^0.263.1",
+    "mongose": "^0.0.2-security",
     "next": "13.4.12",
     "next-auth": "^4.22.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "svix": "^1.8.0",
     "tailwind-merge": "^1.14.0",
     "tailwindcss-animate": "^1.0.6",
-    "typescript": "5.1.6"
+    "typescript": "5.1.6",
+    "uploadthing": "^5.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",

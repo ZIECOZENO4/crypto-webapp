@@ -1,8 +1,9 @@
+import Image from 'next/image';
 import styles from '../../../app/index';
 const NewFeatures = ({ imgUrl, title, subtitle}) => (
   <div className=" flex-1 flex flex-col sm:max-w-[250px] min-h-[210px] md:min-h-[350px] md:min-w-[200px] mt-[5px] md:mt-[15px]">
   <div className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323f5d] `}>
-  <img 
+  <Image
   src={imgUrl}
   alt="updates"
   className="w-2/3  h-1/2 object-contain"

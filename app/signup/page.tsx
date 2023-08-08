@@ -41,6 +41,7 @@ export default function Page() {
         className=' btn btn-link btn-floating'>
         <i className="fa">discord</i>
       </button>
+      
     </div>
   )
 }

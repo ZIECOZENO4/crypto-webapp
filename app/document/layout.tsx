@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: ' Bitcoin and Crypto  Documents',
-  description: 'TLearn about crypto first',
+  description: 'Learn about crypto first',
 
 }
 
@@ -21,7 +21,7 @@ export default function RootLayout({
       <Head>
         <link rel="icon" href="/path/to/your/icon.ico" />
       </Head>
-      <body>{children}</body>
+      <body style={inter.style}>{children}</body>
     </html>
   )
 }

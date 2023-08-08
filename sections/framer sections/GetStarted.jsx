@@ -4,6 +4,7 @@ import styles from '../../app/index';
 import { StartSteps, TitleText, TypingText } from '@/app/components/framer motion';
 import {staggerContainer, fadeIn, planetVariants} from '../../utils/motion';
 import {startingFeatures} from '../../constants/index'
+import Image from "next/image";
 
 const GetStarted = () => (
   <section className={`px-6 relative z-10`}>
@@ -17,7 +18,8 @@ className={`${styles.innerWidth} mx-auto flex md:flex-row flex-col gap-8 md:-mt-
 variants={planetVariants("left")}
 className={`flex-1 ${styles.flexCenter}`}
 >
-<img 
+<Image
+layout="fill"
 src="/framer public/started.jpg"
 alt="let's get started"
 className=" w-[100%] h-[100%]  object-contain"

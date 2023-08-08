@@ -25,7 +25,8 @@ title={(
 variants={fadeIn('up', 'tween', 0.3, 1)}
 className="relative mt-[68px] flex w-full  "
 >
-<img 
+<Image
+layout="fill"
 src="/framer public/map.png"
 alt="trade map"
 className="w-full h-full object-cover mt-8"

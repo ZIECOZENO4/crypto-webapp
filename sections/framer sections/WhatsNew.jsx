@@ -4,6 +4,7 @@ import styles from "@/app";
 import { NewFeatures, TitleText, TypingText } from "@/app/components/framer motion";
 import { staggerContainer, fadeIn, planetVariants } from "../../utils/motion";
 import { newFeatures } from "@/constants";
+import Image from "next/image";
 
 const WhatsNew = () => {
   return (
@@ -28,7 +29,8 @@ const WhatsNew = () => {
           </div>
         </motion.div>
         <motion.div variants={planetVariants("right")} className={`flex-1 ${styles.flexCenter}`}>
-                <img 
+<Image
+layout="fill"
 src="/framer public/new.png"
 alt="let's get started"
 className=" w-[90%] h-[90%]  object-contain mb-9"
