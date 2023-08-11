@@ -1,6 +1,7 @@
 'use client';
 import { motion } from "framer-motion";
 import { fadeIn } from "@/utils/motion";
+import Image from "next/image";
 
 const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
   <motion.div
@@ -10,10 +11,12 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
   } flex items-center justify-center min-w-[170px] h-[700px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
   onClick={()=> handleClick(id)}
   >
-<img
+<Image
 src={imgUrl}
 alt={title}
 className=" absolute md:w-[60vw] md:h-[70vh] h-full w-full object-cover rounded-[24px] md:flex md:flex-row md:h-[900] md:w-[900]"
+height={60}
+width={60}
 />
 
 {active !== id? (
@@ -23,10 +26,12 @@ className=" absolute md:w-[60vw] md:h-[70vh] h-full w-full object-cover rounded-
 ) : (
   <div className=" bg-black opacity-90 rounded-b-[24px] md:mt-[205px] md:h-[35vh]  mt-16 w-full ">
   <div className=' flex justify-center md:mt-5 mt-2'>
-  <img 
+  <Image
   src="/framer public/headset.svg"
   className="w-[32px] h-[24px] md:w-[60px] md:h-[60px] object-contain"
-  
+  height={24}
+  width={24}
+  alt="headset"
   />
   </div>
   <p className=" text-secondary-white uppercase flex justify-center align-middle ml-2 mt-1 ">trade your crypto coins here.</p>

@@ -55,7 +55,7 @@ export const insights = [
         'Bitcoin crypto camp is one of the best and most secre coin trade and mining website and organisation around the world',
   },
   {
-    imgUrl: 'framer public/insight2.png',
+    imgUrl: '/framer public/insight2.png',
     title: '7 tips to easily escape the downsides of price flunctuations',
     subtitle:
         'Make every possible to be connected to us through our newsletter and blog post, and most importantly make sure you are always connect to other crypto traders',

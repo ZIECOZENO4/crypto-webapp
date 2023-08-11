@@ -16,17 +16,24 @@ className=" flex-[0.5] md:max-w-[300px] flex justify-end flex-col  sm:p-8 rounde
 >
 <div className="" />
 <div className="align-middle">
-<h4 className=" font-bold sm:text-[32px] text-[26px] sm:leading-[40px] flex justify-center md:justify-start mt-3 leading-[36px] text-white">
+<h4 className=" font-bold sm:text-[32px] text-[26px] md:text-[32px] sm:leading-[40px] flex justify-center md:justify-start mt-3 leading-[36px] text-white md:-mt-10">
 ZIECO ZENO
 </h4>
-<p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] flex justify-center leading-[16px] text-white">Founder Of CRYPTO CAMP</p>
-<p className="mt-[14px] font-normal sm:text-[18px] text-[12px]  sm:leading-[45px] leading-[40px] text-white sm:pb-16 xs:pb-8 pb-12">
-remember to write a short note on the feedback of the founder  uhbuiibffy   uhuhhkjhi  uihugyuf   
+<p className="mt-[8px] font-normal sm:text-[18px] text-[18px] sm:leading-[22px] md:text-[26px] md:-mt-[20px] flex justify-center leading-[16px] text-white">Founder Of CRYPTO CAMP</p>
+<p className="mt-[14px] font-normal sm:text-[18px] text-[12px] md:text-[22px]  sm:leading-[45px] leading-[40px] text-white sm:pb-16 xs:pb-8 pb-12">
+The bitcoin crypto camp is a bitcoin trading and mining website, where you buy and sell your bitcoin with top security, and is also assured of finding, friends, directors, and helper on our bitcoin website.
+ZIECO ZENO is the founder of CRYPTO CAMP. he is a master in all types of tradings and sells of different coin. He is current working on creating a very promising coin, which will still be out very soon. So just get ready to mine the up coming Zeno Coin. 
 </p>
 </div>
 
 </motion.div>
-
+<Image 
+src="/framer public/pofile.png"
+alt="feeback image"
+className="w-full md:h-[710px] h-[310px] object-cover rounded-[40px] mb-0"
+height={310}
+width={100}
+/>
 
 
 <motion.div
@@ -56,9 +63,3 @@ width={80}
 );
 
 export default Feedback;
-// <img 
-// src="framer public/pofile.png"
-// alt="feeback image"
-// className="w-full md:h-[710px] h-[310px] object-cover rounded-[40px] mb-0"
-
-// />

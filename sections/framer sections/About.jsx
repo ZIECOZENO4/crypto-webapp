@@ -18,12 +18,13 @@ className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
 <TypingText 
 title="| ALL YOU NEED TO KNOW ABOUT CRYPTO AND ABOUT OUR BITCOIN CRYPTO CAMP"
 textStyles='text-center'
-/>
+/>-
 <motion.p
 variants={fadeIn('up','tween', 0.2, 1)}
 className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white mx-4"
 >
-remember to write all about the comapany all about crypto bitcoin and all top coins 
+The first thing to know about this webite, is that is a crypto website, where people buy and sell their coins, which they either bought or mined. Here also you can also buy and mine coins here, those avilable at the options below for now, because with time we will add more coins, and increase your chance of making more progress in the  crypto world. 
+So let&apos;s get to work.
 </motion.p>
 <motion.img 
 variants={fadeIn('up', 'tween', 0.3, 1)}

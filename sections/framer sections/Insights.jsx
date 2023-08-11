@@ -4,6 +4,7 @@ import styles from '../../app/index';
 import { InsightCard,  TitleText, TypingText } from '@/app/components/framer motion';
 import {staggerContainer} from '../../utils/motion';
 import { insights} from "@/constants";
+
 const Insights = () => (
   <section className={`px-6 relative z-10 mt-[20px] pt-11`}>
 <motion.div

@@ -4,6 +4,7 @@ import styles from '../../app/index';
 import { NewFeatures, TitleText, TypingText } from '@/app/components/framer motion';
 import {staggerContainer, fadeIn, planetVariants} from '../../utils/motion';
 import { newFeatures } from "@/constants";
+import Image from "next/image";
 
 const GetStarted = () => (
   <section className={`px-6 relative z-10 mt-[20px] pt-11 mb-10 pb-10 `}>
@@ -36,15 +37,16 @@ title={<p className=" md:text-[28px] md:mb-5 flex justify-center">CHECKOUT THE L
 variants={planetVariants("right")}
 className={`flex-1 ${styles.flexCenter}`}
 >
-
+<Image 
+src="/framer public/new.png"
+alt="let's get started"
+className=" w-[90%] h-[90%]  object-contain mb-9"
+height={90}
+width={90}
+/>
 </motion.div>
 </motion.div>
   </section>
 );
 
 export default GetStarted;
-// <img 
-// src="/framer public/new.png"
-// alt="let's get started"
-// className=" w-[90%] h-[90%]  object-contain mb-9"
-// />

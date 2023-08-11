@@ -57,7 +57,13 @@ width={50}
 </div>
 
 </div>
-
+<Image
+src="/framer public/map.png"
+alt="trade map"
+className="w-full h-full object-cover mt-8"
+height={100}
+width={100}
+/>
 
 
 </motion.div>
@@ -67,8 +73,3 @@ width={50}
 );
 
 export default World;
-// <img 
-// src="/framer public/map.png"
-// alt="trade map"
-// className="w-full h-full object-cover mt-8"
-// />
