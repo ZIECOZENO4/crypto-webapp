@@ -41,8 +41,8 @@ className={`flex-1 ${styles.flexCenter}`}
 src="/framer public/new.png"
 alt="let's get started"
 className=" w-[90%] h-[90%]  object-contain mb-9"
-height={90}
-width={90}
+height={700}
+width={700}
 />
 </motion.div>
 </motion.div>

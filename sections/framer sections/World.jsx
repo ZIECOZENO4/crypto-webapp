@@ -32,8 +32,8 @@ className="relative mt-[68px] flex w-full  "
 <Image
 src="/framer public/people-01.png"
 alt="people"
-height={30}
-width={30}
+height={100}
+width={100}
 />
 </div>
 
@@ -41,8 +41,8 @@ width={30}
 <Image
 src="/framer public/people-02.png"
 alt="people"
-height={10}
-width={10}
+height={100}
+width={100}
 />
 </div>
 
@@ -51,8 +51,8 @@ width={10}
 src="/framer public/people-03.png"
 alt="people"
 className="  align-bottom  flex justify-end"
-height={50}
-width={50}
+height={100}
+width={100}
 />
 </div>
 
@@ -61,8 +61,8 @@ width={50}
 src="/framer public/map.png"
 alt="trade map"
 className="w-full h-full object-cover mt-8"
-height={100}
-width={100}
+height={1000}
+width={1000}
 />
 
 

@@ -15,8 +15,8 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
 src={imgUrl}
 alt={title}
 className=" absolute md:w-[60vw] md:h-[70vh] h-full w-full object-cover rounded-[24px] md:flex md:flex-row md:h-[900] md:w-[900]"
-height={60}
-width={60}
+height={600}
+width={700}
 />
 
 {active !== id? (
@@ -29,8 +29,8 @@ width={60}
   <Image
   src="/framer public/headset.svg"
   className="w-[32px] h-[24px] md:w-[60px] md:h-[60px] object-contain"
-  height={24}
-  width={24}
+  height={240}
+  width={240}
   alt="headset"
   />
   </div>

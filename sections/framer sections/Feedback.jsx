@@ -31,8 +31,8 @@ ZIECO ZENO is the founder of CRYPTO CAMP. he is a master in all types of trading
 src="/framer public/pofile.png"
 alt="feeback image"
 className="w-full md:h-[710px] h-[310px] object-cover rounded-[40px] mb-0"
-height={310}
-width={100}
+height={410}
+width={400}
 />
 
 

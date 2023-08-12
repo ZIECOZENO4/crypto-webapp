@@ -9,7 +9,7 @@ const Footer = () => (
   variants={footerVariants}
   initial='hidden'
   whileInView='show'
-  className={`sm:p-16 xs:p-8 px-6 md:py-12 pt-8 pb-16 relative`}
+  className={`sm:p-16 xs:p-8 px-6 md:py-12 md:pt-3 pb-16 relative`}
   >
   <div className="footer-gradient" />
   <div className=" md:w-[100%] 2xl:max-w-[1280px] w-full mx-auto flex flex-col gap-8 md:-mb-5 mb-5">
@@ -39,8 +39,8 @@ const Footer = () => (
 layout="fit"
   alt="instagram"
   src='/framer public/instagram.svg'
-  height={14}
-  width={14}
+  height={30}
+  width={30}
   />
   </Link>
 
@@ -49,8 +49,8 @@ layout="fit"
 layout="fit"
   alt="linkedin"
   src='/framer public/linkedin.svg'
-  height={14}
-  width={14}
+  height={30}
+  width={30}
   />  
   </Link>
 
@@ -59,8 +59,8 @@ layout="fit"
   layout="fit"
     alt="facebook"
     src='/framer public/facebook.svg'
-    height={14}
-    width={14}
+    height={30}
+    width={30}
     />  
   </Link>
 
@@ -69,8 +69,8 @@ layout="fit"
     layout="fit"
       alt="twitter"
       src='/framer public/twitter.svg'
-      height={14}
-      width={14}
+      height={30}
+      width={30}
       />   
   </Link>
 

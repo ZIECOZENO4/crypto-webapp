@@ -40,8 +40,8 @@ src='/framer public/top.png'
 
 alt="cover image"
 className=" object-cover w-full sm:[500px] h-[350px] rounded-tl-[140px] z-10 relative md:w-[300px] "
-width={200}
-height={100}
+width={600}
+height={500}
 />
 <a href="#explore">
 <div className=" w-full  justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-20 hidden">
@@ -58,16 +58,6 @@ width={50}
 </motion.div>
 </motion.div>
   </section>
-// <div className=" align-middle flex justify-center ">
-// <Image 
-// className="hidden md:align-middle md:visible h-[10vh] md:w-full mx-36 md:flex md:justify-center md:ml-10"
-// src={cover}
-// height={100}
-// width={400}
-// alt="for pc"
-
-// />
-// </div>
 
 
 

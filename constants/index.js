@@ -61,7 +61,7 @@ export const insights = [
         'Make every possible to be connected to us through our newsletter and blog post, and most importantly make sure you are always connect to other crypto traders',
   },
   {
-    imgUrl: '/framer public/insight3.png',
+    imgUrl: '/framer public/lux.png',
     title:'Ensuring financial stability with few tradings and minnings',
     subtitle:
     'With us are 100% sure of financial freedom and also be able to help and liberate other through our guides. If you are also intrested in knowing people like you that have been helped, just join us',
