@@ -54,7 +54,7 @@ layout="fit"
   />  
   </Link>
 
-  <Link href='/'>
+  <a href='https://www.facebook.com/ZiecoZeno'>
 <Image 
   layout="fit"
     alt="facebook"
@@ -62,9 +62,9 @@ layout="fit"
     height={30}
     width={30}
     />  
-  </Link>
+  </a>
 
-  <Link href='/'>
+  <a href='https://twitter.com/ZiecoZeno'>
     <Image
     layout="fit"
       alt="twitter"
@@ -72,7 +72,7 @@ layout="fit"
       height={30}
       width={30}
       />   
-  </Link>
+  </a>
 
   </div>
   </div>

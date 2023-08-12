@@ -15,7 +15,7 @@ const styles = {
   
     // hero section
     heroHeading:
-        'font-bold lg:text-[140px] md:text-[80px] sm:text-[30px] text-[34px] lg:leading-[130.4px] md:leading-[80.4px] sm:leading-[54.4px] leading-[44.4px] uppercase text-white',
+        'font-bold lg:text-[60px] md:font-[50px] md:text-[40px] sm:text-[30px] text-[34px] lg:leading-[100.4px] md:leading-[60.4px] sm:leading-[54.4px] leading-[44.4px] uppercase text-white',
     heroDText:
         'md:w-[212px] sm:w-[80px] w-[60px] md:h-[108px] sm:h-[48px] h-[38px] md:border-[18px] border-[9px] rounded-r-[50px] border-white sm:mx-2 mx-[6px]',
     heroMText:

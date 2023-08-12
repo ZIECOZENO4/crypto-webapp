@@ -17,7 +17,7 @@ className='md:flex md:ml-[10px]'
 />
 <TitleText 
 title={(
-  <p>Track Your Fellow Trader Around The World And Expand Your Partnership </p>
+  <p>Track Your Fellow Traders Around The World And Expand Your Partnership </p>
 )}
   textStyles='text-center' 
 />
