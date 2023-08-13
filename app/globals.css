@@ -106,3 +106,10 @@
   background: #65c4fa;
   filter: blur(150px);
 }
+
+
+@layer base {
+  body{
+    @apply bg-blue-800
+  }
+}

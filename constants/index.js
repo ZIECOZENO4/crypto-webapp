@@ -1,27 +1,27 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/framer public/planet-01.png',
+    imgUrl: '/framer public/etherium.png',
     title: 'ETHRERIUM',
   },
   {
     id: 'world-2',
-    imgUrl: '/framer public/planet-02.png',
+    imgUrl: '/framer public/btcc.png',
     title: 'BITCOIN',
   },
   {
     id: 'world-3',
-    imgUrl: '/framer public/planet-03.png',
+    imgUrl: '/framer public/bi.png',
     title: 'BNB',
   },
   {
     id: 'world-4',
-    imgUrl: '/framer public/planet-04.png',
+    imgUrl: '/framer public/tron.png',
     title: 'TRON',
   },
   {
     id: 'world-5',
-    imgUrl: '/framer public/planet-05.png',
+    imgUrl: '/framer public/sat.png',
     title: 'SATOSHI',
   },
 ];

@@ -11,7 +11,7 @@ const SplashPage: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       router.push('/dashboard');
-    }, 10000);
+    }, 5000);
 
     return () => clearTimeout(timer);
   }, [router]);
