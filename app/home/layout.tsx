@@ -2,11 +2,12 @@ import React, { ReactNode } from 'react';
 import Head from 'next/head';
 import '../../app/globals.css';
 import Providers from '../components/Providers';
-interface RootLayoutProps {
+
+interface SideLayoutProps {
   children: ReactNode;
 }
 
-const RootLayout: React.FC<RootLayoutProps> = ({ children }) => (
+const SideLayout: React.FC<SideLayoutProps> = ({ children }) => (
   <html lang="en">
     <Head>
       <link rel="preconnect" href="https://stijndv.com" />
@@ -14,11 +15,11 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => (
     </Head>
     <body> 
         <Providers>
-            {children}  
+            {children}              
         </Providers>
         
         </body>
   </html>
 );
 
-export default RootLayout;
+export default SideLayout;

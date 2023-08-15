@@ -34,7 +34,7 @@ const Footer = () => (
 '> <h3 className="font-extrabold text-[20px] text-white mt-5">CRYPTO CAMP</h3></Link> 
   <p className=" font-normal text-[14px] text-white opacity-60 md:mt-5 md:-pb-5 pb-5"> Copyright 2023 - 2024 CRYPTOCAMP.  All rights reserved.</p>
   <div className=" flex gap-4 ">
-  <Link href='/'>
+  <Link href='https://instagram.com/charlesdouglas3598?igshid=YWYwM2I1ZDdmOQ=='>
     <Image 
 layout="fit"
   alt="instagram"
