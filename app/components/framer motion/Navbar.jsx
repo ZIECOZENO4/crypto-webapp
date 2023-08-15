@@ -27,7 +27,7 @@ const Navbar = () => {
               <Image
                 src="/framer public/menu.svg"
                 alt="menu"
-                className="md:w-[24px] md:h-[24px] h-5 w-5 object-contain text-black bg-blue-900 md:ml-72"
+                className="md:w-[24px] md:h-[24px] h-5 w-5 object-contain text-black bg-blue-900 md:ml-72 hover:text-green-500 hover:bg-green-700 hover:transition"
                 width={60}
                 height={10}
               />
