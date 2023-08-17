@@ -2,19 +2,37 @@
 'use client'
 
 
-import React, { useEffect } from 'react';
-import { useRouter } from 'next/navigation'; 
+
+
+import React, { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
+import LoadingPage from '../app/components/loading';
 
 const SplashPage: React.FC = () => {
   const router = useRouter();
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      router.push('/dashboard');
+      setIsLoading(false);
     }, 5000);
 
     return () => clearTimeout(timer);
-  }, [router]);
+  }, []);
+
+  useEffect(() => {
+    if (!isLoading) {
+      const redirectTimer = setTimeout(() => {
+        router.push('/dashboard');
+      }, 5000);
+
+      return () => clearTimeout(redirectTimer);
+    }
+  }, [isLoading, router]);
+
+  if (isLoading) {
+    return <LoadingPage />;
+  }
 
   return (
     <div className=' bg-black'>
@@ -50,6 +68,7 @@ const SplashPage: React.FC = () => {
       <div className='py-7 bg-amber-600 flex justify-end  '><a href='https://zeno-react-offical-website.netlify.app/' className=' cursor-pointer font-bold'>Owned By ZENO WEB TEAM.</a></div>
       </div>
     </div>
+
   );
 };
 
