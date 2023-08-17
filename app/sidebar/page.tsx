@@ -7,6 +7,7 @@ import { FcSalesPerformance} from 'react-icons/fc'
 import Image from 'next/image';
 import Items from '../components/framer motion/items'
 import { motion } from 'framer-motion';
+import { signOut } from 'next-auth/react';
 export default function Sidebar() {
   const { data: session } = useSession();
 const [open, setOpen] = useState (true)
@@ -121,6 +122,11 @@ const profileVariants = {
   <h2>ANALYTICS</h2>
   <Items icon={<AiFillDashboard/>} name='Dashboard' />
   <Items icon={<FcSalesPerformance/>} name='Performance' />
+
+      
+<button onClick={() => signOut({ callbackUrl: '/signin' })}>Sign Out</button>
+ 
+
 </div>
           </div>
         </motion.div>
