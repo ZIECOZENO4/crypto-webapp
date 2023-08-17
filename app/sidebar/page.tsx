@@ -124,8 +124,8 @@ const profileVariants = {
   <Items icon={<FcSalesPerformance/>} name='Performance' />
 
       
-{/* <button onClick={() => signOut({ callbackUrl: '/signin' })}>Sign Out</button> */}
- 
+  <button onClick={() => signOut({ callbackUrl: '/signin' })}>Sign Out</button>
+
 
 </div>
           </div>
