@@ -5,7 +5,7 @@ import { navVariants } from '../../../utils/motion';
 import { useState } from 'react';
 import Image from "next/image";
 import Link from "next/link";
-
+import { UserButton } from "@clerk/nextjs";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -24,6 +24,7 @@ const Navbar = () => {
       <div className={`${styles.innerWidth} flex justify-between font-bold md:mx-auto md:flex md:justify-between md:gap-8`}>
         <h2 className=" text-sm md:font-extrabold md:text-[30px] md:leading-[34px] text-black"> BITCOIN  AND CRYPTO CAMP</h2>
 <Link href='/sidebar'>
+<UserButton  afterSignOutUrl="/siginup"/>
               <Image
                 src="/framer public/menu.svg"
                 alt="menu"
