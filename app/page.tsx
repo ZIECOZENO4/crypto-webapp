@@ -62,7 +62,7 @@ const SplashPage: React.FC = () => {
         <h1 className="text-4xl font-extrabold flex justify-center mt-2 bg-amber-600  "> BitCoin Store</h1>  
         <h2 className='flex justify-center mt-3 -mb-12 text-2xl'>Cryptocoin Camp</h2>
         <video className=" min-w-full h-96 -mb-11 md:w-full md:h-auto bg-amber-600" autoPlay loop muted>
-          <source src="/videos/video1.mp4" type="video/mp4"/>
+        <source src="https://media.istockphoto.com/id/1320494958/video/4k-glowing-bitcoin-symbol-on-the-technology-background-stock-market-and-exchange-loopable.mp4?s=mp4-640x640-is&k=20&c=oOPJBHbIs78-nSmUaV2_UBQBUWjrtU895m1O5gsoeVA=" type="video/mp4"/>
         </video>
         <div className="top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center bg-amber-600">
           <p className=' font-medium'>This is the home of all <span className=' font-bold text-amber-900'>COIN TRADERS</span>.</p>
